@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title p {
+  margin-left: 20px;
+  margin-top: 7%;
+}
+
+.title img {
+  width: 40px;
+  height: 3vw;
+  margin-left: 350px;
+  margin-top: 6.5%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.title img:hover {
+  opacity: 0.7;
+}
+
+.title-flex {
+  display: flex;
+}
+
+.imagem video {
+  margin-left: 26.8%;
+  width: 50%;
+  margin-top: 5px;
+}
+
+#favorito {
+  margin-left: 54%;
+  width: 35px;
+}
+
+#favorito:hover {
+  opacity: 0.7;
+}
+
+#perfil {
+  width: 100px;
+  margin-left: 29.7%;
+  background-color: rgb(29, 60, 236);
+  color: aliceblue;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  height: 2.5vw;
+}
+
+#perfil:hover {
+  background-color: rgb(4, 4, 150);
+  transition: 0.3s;
+  text-align: center;
+}
+
+p {
+  color: rgb(42, 112, 241);
+  margin-left: 27%;
+  margin-top: 10px;
+}
+
+#jescklay {
+  color: black;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+#jescklay:hover {
+  text-decoration: underline; /*Traçado no texto*/
+}
+
+p #seguidores {
+  color: rgb(100, 99, 99);
+  margin-right: 5px;
+}
+
+.curtidas p,
+.paragrafo p,
+.comentarios p {
+  color: black;
+}
+
+.comentarios {
+  display: flex;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.comentarios p {
+  color: #a3a1a1;
+  cursor: pointer;
+}
+
+.paragrafo p {
+  width: 50%;
+  text-align: center;
+  text-align: justify;
+}
+
+.svg-foto img {
+  width: 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.svg-foto img:hover {
+  opacity: 0.7;
+}
+
+footer {
+  margin-left: 27%;
+  margin-top: 15px;
+}
+
+#ver-mais {
+  text-decoration: none;
+  color: rgb(42, 112, 241);
+}
+
+#ver-mais:hover {
+  text-decoration: underline; /*Traçado no texto*/
+}
+
+#ver-todos {
+  cursor: pointer;
+  color: #a3a1a1;
+}
+
+#ver-todos:hover {
+  text-decoration: underline; /*Traçado no texto*/
+  cursor: pointer;
+}
+
+#instagram-foto {
+  width: 30px;
+  height: 2.3vw;
+  margin-left: 34%;
+  cursor: pointer;
+}
+
+#instagram-foto:hover {
+  opacity: 0.7;
+}
+
+hr {
+  width: 50%;
+  margin-left: 26.7%;
+  margin-top: 15px;
+}
